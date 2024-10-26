@@ -1,0 +1,29 @@
+/* Use Montserrat for body text */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Use Playfair Display for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.nav-link {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.owl-dots{
+	margin-top : 50px !important;
+}
+
+
+/* Font weights for custom styles */
+h1 {
+    font-weight: 700; /* Bold */
+}
+
+p {
+    font-weight: 400; /* Regular */
+	font-family: 'Playfair Display', serif;
+}
