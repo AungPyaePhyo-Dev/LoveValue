@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Shake Animation</title>
+    <!-- Include Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Add shake animation classes on hover */
+        .shake-on-hover:hover {
+            animation: animate__animated animate__shakeX 0.1s ease; /* Adjust duration as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h2>Hover over the text to shake it!</h2>
+        <!-- Add animate__animated and animate__shakeX to activate animation on hover -->
+        <h1 class="shake-on-hover ">Hello World</h1>
+    </div>
+</body>
+</html>

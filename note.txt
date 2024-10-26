@@ -1,0 +1,42 @@
+home_configurations
+    id
+    bg_image
+    about_image
+    about_title
+    about_description
+    location
+    phone
+    email
+    
+links
+    id
+    url
+
+services
+    id  
+    title 
+    short_description
+    long_description
+    thumb
+
+photo_services
+    id
+    service_id
+    url
+
+video_services
+    id
+    service_id
+    title
+    description
+    url
+
+live_services
+    id
+    service_id
+    url
+
+partners
+    id
+    name
+    url
