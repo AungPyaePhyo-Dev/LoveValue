@@ -15,6 +15,8 @@ class CreateLivesTable extends Migration
     {
         Schema::create('lives', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('service_id');
+            $table->string('url');
             $table->timestamps();
         });
     }

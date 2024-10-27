@@ -8,8 +8,9 @@ home_configurations
     phone
     email
     
-links
+social_links
     id
+    name
     url
 
 services
@@ -40,3 +41,10 @@ partners
     id
     name
     url
+
+contacts
+    id
+    name
+    email
+    phone
+    message
